@@ -91,32 +91,33 @@
     <script>
         const contractAddress = '0x9d63fd56fab58f414fd3a4b27ae0e099091ba89d'; // Replace with your contract address
         const contractABI = [
-            {
-                "inputs": [
-                    {
-                        "internalType": "uint256",
-                        "name": "num",
-                        "type": "uint256"
-                    }
-                ],
-                "name": "store_m",
-                "outputs": [],
-                "stateMutability": "nonpayable",
-                "type": "function"
-            },
-            {
-                "inputs": [],
-                "name": "view_m",
-                "outputs": [
-                    {
-                        "internalType": "uint256",
-                        "name": "",
-                        "type": "uint256"
-                    }
-                ],
-                "stateMutability": "view",
-                "type": "function"
-            }
+            
+        	{
+        		"inputs": [
+        			{
+        				"internalType": "uint256",
+        				"name": "num",
+        				"type": "uint256"
+        			}
+        		],
+        		"name": "store_m",
+        		"outputs": [],
+        		"stateMutability": "nonpayable",
+        		"type": "function"
+        	},
+        	{
+        		"inputs": [],
+        		"name": "view_m",
+        		"outputs": [
+        			{
+        				"internalType": "uint256",
+        				"name": "",
+        				"type": "uint256"
+        			}
+        		],
+        		"stateMutability": "view",
+        		"type": "function"
+        	}
         ];
 
         const web3 = new Web3(Web3.givenProvider);
