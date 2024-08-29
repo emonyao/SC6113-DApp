@@ -1,0 +1,13 @@
+<h2>Welcome to transfer money v1</h2>
+
+<input type = "text" id="payer_id" placeholder="Please enter payer address">
+<br>
+<input type = "text" id="payer_id" placeholder="Please enter payee address">
+<br>
+<input type = "number" id="amount_id" placeholder="Please enter amount">
+<br>
+<button class="btn" onclick="transfer()">Transfer Money</button>
+<button class="btn" onclick="vire_transaction()">View Transaction</button>
+
+
+
