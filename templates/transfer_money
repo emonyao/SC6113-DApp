@@ -11,3 +11,8 @@
 
 
 
+<scrip>
+  async function transfer(){
+  }
+  view_transaction(){
+  }
